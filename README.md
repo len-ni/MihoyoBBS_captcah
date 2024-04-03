@@ -13,4 +13,4 @@ API地址 http://api.huyo.link/getvalidate
 
 请将timeout时间设置为60！！！，api如果识别错误会重试3次！！！
 
-会开源除模型，逆向的其他文件
+main.py是开源除模型，逆向的其他请求逻辑
