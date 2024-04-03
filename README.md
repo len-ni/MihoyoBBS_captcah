@@ -10,4 +10,6 @@ post传参
 API地址 http://api.huyo.link/getvalidate
 需要参数 gt  challenge  token
 
+请将timeout时间设置为60！！！，api如果识别错误会重试3次！！！
+
 会开源除模型，逆向的其他文件
