@@ -9,6 +9,7 @@ def free_api(gt, challenge, referer):
             'token': _token
         }
         r = requests.post('http://api.huyo.link/getvalidate',json=data, timeout=60)
+        print(r.text)
         data = r.json()
         if data['data']['result'] == 'success':
             return data['data']['validate']
@@ -45,12 +46,12 @@ def rrocr(gt, challenge, referer):
 
 def game_captcha(gt: str, challenge: str):
     try:
-        free_api(gt, challenge, 'https://webstatic.mihoyo.com/')
+        return free_api(gt, challenge, 'https://webstatic.mihoyo.com/')
     except:
         return None
 
 def bbs_captcha(gt: str, challenge: str):
     try:
-        free_api(gt, challenge, 'https://app.mihoyo.com/')
+        return free_api(gt, challenge, 'https://app.mihoyo.com/')
     except:
         return None
