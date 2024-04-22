@@ -1,6 +1,6 @@
 # geetest3_captcah九宫格模型
 
-## 使用方法
+### 使用方法
 
 用于[MihoyoBBSTools](https://github.com/Womsxd/MihoyoBBSTools)的游戏签到的免费验证码解决API
 
